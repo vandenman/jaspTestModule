@@ -32,7 +32,7 @@ testTransposedTableFunc <- function(jaspResults, dataset, options)
 
 	#if(options$reportSignificance)
 		mainTable$addColumnInfo(name = paste(vvars[vi], tests[ti], "p.value", sep = "."),
-								title = "p-value", type = "pvalue",
+								title = gettext("p-value"), type = "pvalue",
 								overtitle = vars[vi]) # this overtitle should appear as a first column
 
 	# here will be more option-dependent stuff, but this should be enough as an example
