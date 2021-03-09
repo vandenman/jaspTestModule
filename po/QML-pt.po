@@ -650,10 +650,10 @@ msgctxt "CopyOfDescriptives|"
 msgid "Percentages"
 msgstr ""
 
-msgctxt "customContrasts|"
+msgctxt "testEncoding|"
 msgid "Selected"
 msgstr ""
 
-msgctxt "testEncoding|"
-msgid "Selected"
+msgctxt "customContrasts|"
+msgid "Selected I'm modified!"
 msgstr ""
