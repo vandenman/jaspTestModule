@@ -14,4 +14,3 @@ jobs:
           r-version: "3.6.1"
 
       - uses: jasp-stats/jasp-actions/translations@translations
-
