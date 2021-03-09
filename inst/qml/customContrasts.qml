@@ -36,7 +36,7 @@ Form
 		{	
 			id:				selected
 			name: 			"selected"
-			title: 			qsTr("Selected")
+			title: 			qsTr("Selected I'm modified!")
 			singleVariable:	true
 			allowedColumns:	["ordinal", "nominal", "nominalText"]	
 		}
