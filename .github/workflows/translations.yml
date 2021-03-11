@@ -3,7 +3,7 @@ name: generate-translations
 on:
   schedule:
   # UTC, https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
-  - cron: "0 10 * * *"
+  - cron: "0 13 * * *"
 
 jobs:
   generate-translations:
