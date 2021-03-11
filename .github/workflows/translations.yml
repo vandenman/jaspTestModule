@@ -1,4 +1,7 @@
-on: [push]
+on:
+  schedule:
+    # UTC, https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
+    - cron: 20 8 * * *
 
 name: generate-translations
 
@@ -8,6 +11,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: master
 
       - uses: r-lib/actions/setup-r@master
         with:

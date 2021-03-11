@@ -31,7 +31,7 @@ Form
 		AssignedVariablesList	{ name: "splitby";			title: qsTr("Split");		singleVariable: true; suggestedColumns: ["ordinal", "nominal"];	id: splitBy }
 	}
 
-	CheckBox { name: "frequencyTables"; label: qsTr("Frequency tables (nominal and ordinal variables)"); }
+	CheckBox { name: "frequencyTables"; label: qsTr("Frequency tables (nominal and ordinal variables) maar nu extra text"); }
 
 	Section
 	{
