@@ -9,7 +9,7 @@ Description
 	description: 		qsTr("A module to test stuff with.")
 	requiresData: 		false
 	hasWrappers: 		false
-	
+
 	Timer
 	{
 		interval: 5000
@@ -229,6 +229,13 @@ Description
 		title:			"Test ComponentsList & TableView layout"
 		qml:			"testComponentsListLayout.qml"
 		func:			"testComponentsListLayout"
+	}
+
+	Analysis
+	{
+		title:			"Test ComponentsList changing defaultValues"
+		qml:			"testComponentsListChange.qml"
+		func:			"testComponentsListChange"
 	}
 
 	Analysis
